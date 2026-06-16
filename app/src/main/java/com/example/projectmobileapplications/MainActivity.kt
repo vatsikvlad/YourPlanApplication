@@ -69,7 +69,7 @@ class MainActivity : ComponentActivity() {
             ) {
                 ProjectMobileApplicationsTheme(darkTheme = elementsViewModel.isDarkMode) {
                     val configuration = LocalConfiguration.current
-                    val isTablet = configuration.screenWidthDp >= 600
+                    val isTablet = configuration.smallestScreenWidthDp >= 600
 
                     Surface(
                         modifier = Modifier.fillMaxSize(),
