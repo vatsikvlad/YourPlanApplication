@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="0.6"
+        android:scaleY="0.6">
+        <!-- White background of the card -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M30,20h48c5.5,0 10,4.5 10,10v48c0,5.5 -4.5,10 -10,10h-48c-5.5,0 -10,-4.5 -10,-10v-48c0,-5.5 4.5,-10 10,-10z" />
+        <!-- Black text lines -->
+        <path
+            android:fillColor="#000000"
+            android:pathData="M35,35v5h38v-5h-38zM35,45v5h38v-5h-38zM35,55v5h38v-5h-38zM35,65v5h25v-5h-25z" />
+        <!-- Purple header -->
+        <path
+            android:fillColor="#602BAF"
+            android:pathData="M20,30c0,-5.5 4.5,-10 10,-10h48c5.5,0 10,4.5 10,10v10h-68v-10z" />
+    </group>
+</vector>
