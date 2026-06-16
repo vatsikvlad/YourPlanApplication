@@ -31,8 +31,3 @@ The project follows **Clean Architecture** principles and the **MVVM** pattern:
 - `phone/` & `tablet/`: UI components specific to the device form factor.
 - `notifications/`: Handling system BroadcastReceivers and scheduling alerts.
 - `ui/theme/`: Definitions for colors, typography, and Material 3 themes.
-
-## Installation & Setup
-
-1. Clone the repository:
-   
